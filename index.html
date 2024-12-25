@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Brian Meinert Personal Site</title>
-  <link rel="stylesheet" href="./mac.css">
+  <link id="style-windows" rel="stylesheet" href="./styles.css">
+  <link id="style-mac" disabled rel="stylesheet" href="./mac.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -21,7 +22,7 @@
       <input type="password" placeholder="Password" class="pin-input">
       <button class="pin-button"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="rgb(255,255,255,0.5)"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></button>
     </div>
-    <button class="switcher"><img src="./images/windows.svg" alt="windows icon" class="inline-icon"> <img src="./images/apple.svg" alt="apple icon" class="inline-icon"></button>
+    <button class="switcher" onclick="themeToggle();"><img src="./images/windows.svg" alt="windows icon" class="inline-icon"> <img src="./images/apple.svg" alt="apple icon" class="inline-icon"></button>
   </div>
 </body>
 </html>
