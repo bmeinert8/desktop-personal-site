@@ -130,3 +130,12 @@ h1, h2, h3, h4, h5, h6 {
 .inline-icon {
   display: inline-block;
 }
+
+.desktop {
+  background-image: url(./images/windows-bg.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
