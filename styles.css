@@ -208,3 +208,7 @@ nav div {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#mac-bar {
+  display: none;
+}
