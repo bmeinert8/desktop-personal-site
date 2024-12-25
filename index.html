@@ -17,11 +17,13 @@
   <div class="bg-text">
     <picture class="profile-picture"></picture>
     <h1>Brian Meinert</h1>
-    <p>brianjmeinert@gmail.com</p>
+    <p class="email">brianjmeinert@gmail.com</p>
     <div class="pin-container">
       <input type="password" placeholder="Password" class="pin-input">
       <button class="pin-button" onclick="location.href='./main.html'"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="rgb(255,255,255,0.5)"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg ></button>
+      <button class="mac-password-help" onclick="forgotPassword();">?</button>
     </div>
+      <p class="windows-password-help" onclick="forgotPassword();">I forgot my password</p>
     <button class="switcher" onclick="themeToggle();"><img src="./images/windows.svg" alt="windows icon" class="inline-icon"> <img src="./images/apple.svg" alt="apple icon" class="inline-icon"></button>
   </div>
 </body>

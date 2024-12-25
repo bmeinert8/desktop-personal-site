@@ -9,3 +9,7 @@ const themeToggle = () => {
 }
 
 theme_set(localStorage.getItem('theme-toggled'));
+
+const forgotPassword = () => {
+  alert('Type whatever you\'d like, or just press the arrow to sign in!');
+}

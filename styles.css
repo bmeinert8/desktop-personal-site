@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2.5rem;
 }
 
-.bg-text p {
+.email {
   font-size: 1rem;
   margin-bottom: 20px;
 }
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 .pin-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .pin-button{
@@ -117,6 +117,12 @@ h1, h2, h3, h4, h5, h6 {
   width: 50px;
   height: 50px;
   margin: 5px
+}
+
+.windows-password-help {
+  font-size: .75rem;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .switcher {
@@ -138,4 +144,8 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+}
+
+.mac-password-help {
+  display: none;
 }
