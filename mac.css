@@ -158,3 +158,46 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
   cursor: pointer;
 }
+
+#microsoft-nav {
+  display: none;
+}
+
+footer {
+  position: absolute;
+  bottom:-1.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 70%;
+  background-color: rgb(255, 255, 255, 0.5);
+  height: 60px;
+  border-radius: 10px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 0.3rem;
+}
+
+nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
+.icon {
+  height: 32px;
+  width: 32px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  transform: scale(1.4);
+  transition: all 0.3s;
+}
