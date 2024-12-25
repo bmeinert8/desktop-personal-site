@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 .pin-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 .pin-button{
