@@ -251,3 +251,12 @@ header {
   margin-left: 5px;
   cursor: pointer;
 }
+
+.mac-date {
+  position: absolute;
+  right: 1%;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  gap: 0.5rem;
+}
