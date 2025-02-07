@@ -227,6 +227,21 @@ nav div {
   background-size: cover;
 }
 
+.blackjack{
+  height: 80px;
+  width: 80px;
+  background-image: url(./images/blackjack.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.desktop-icon-blackjack {
+  position: absolute;
+  top: 18%;
+  left: 1%;
+}
+
 header {
   position: absolute;
   height: 25px;
